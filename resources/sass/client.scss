@@ -1,0 +1,218 @@
+// Fonts
+@import '~vue2-dropzone/dist/vue2Dropzone.min.css';
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~vue-select/dist/vue-select.css';
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+
+@font-face {
+    font-family: 'IranSanse';
+    src: url('/fonts/Irans/IranSanse.eot'),
+    url('/fonts/Irans/IranSanse.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/fonts/Irans/IranSanse.ttf') format('truetype');/* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Alegria';
+    src: url('/fonts/Alegreya_Sans/AlegreyaSans-Bold.ttf') format('truetype');/* Safari, Android, iOS */
+}
+
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: IranSanse;
+    font-weight: 200;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.clientbody {
+    margin: 0 !important;
+    background-color: #f6fae5;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-item:hover .nav-link {
+    color: #fff600 !important;
+}
+
+.dropdown-item:hover, .dropdown-item:active {
+    background-color: #1b1e21 !important;
+    color: #fff600 !important;
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    left: unset !important;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font10 {
+    font-size: 10px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.slidertop {
+    border-radius: 7px;
+    overflow: hidden;
+    height: 280px;
+}
+
+@media (min-width: 768px) {
+    .slidertop {
+        border-radius: 7px;
+        overflow: hidden;
+        height: 400px;
+    }
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.navbar-dark {
+    border-bottom: 4px solid #ffc300;
+    box-shadow: 0 10px 10px 0 #fffbb9;
+}
+.headerborder {
+    border-bottom: 1px solid #ffc300;
+}
+
+.logintxt {
+    color: #00E6F1 !important;
+}
+
+.leftbookname {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bookinfo {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 100%;
+    left: 0;
+    transition: top 500ms;
+    border-radius: 5px;
+}
+
+.leftside {
+    border: 1px solid #cccb9d;
+    background-color: white;
+}
+
+.leftbookimg {
+    border-radius: 5px;
+}
+
+.leftbook:hover .bookinfo {
+    top: 0;
+}
+
+.leftbook {
+    box-shadow: 0 0 10px 3px #c0c0c0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card-header {
+    font-weight: bolder;
+}
+
+.myfooter {
+    border-top: 4px solid #ffc300;
+}
+
+.footercolor {
+    color: #7ea9a7;
+}
+
+.socialfooter {
+    background-color: #313131;
+    transition: background-color 500ms, color 500ms;
+    border-radius: 35%;
+}
+
+.socialfooter:hover {
+    background-color: #bb9003;
+    color: #fff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.mybordertop {
+    border-top: 1px solid #ffc300;
+}
+
+.persontitle{
+    font-size: 16px;
+    border-right: 10px solid #00e6f1;
+}
